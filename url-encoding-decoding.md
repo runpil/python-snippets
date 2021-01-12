@@ -5,13 +5,13 @@
 from urllib import parse
 
 # 인코딩
-inco = parse.quote('한글')
+encode = parse.quote('한글')
 
 # 디코딩
-deco = parse.unquote('%ED%95%9C%EA%B8%80')
+decode = parse.unquote('%ED%95%9C%EA%B8%80')
 
-print(inco)
-print(deco)
+print(encode)
+print(decode)
 
 %ED%95%9C%EA%B8%80
 한글
